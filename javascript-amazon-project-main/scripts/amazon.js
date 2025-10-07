@@ -3,6 +3,9 @@ import { cart, cart as myCart } from '../data/cart.js';
 
 import { products } from '../data/products.js';
 
+import { formatCurrency } from './utils/money.js';
+
+
 let productsHTML = '';
 
 products.forEach((product) => {
