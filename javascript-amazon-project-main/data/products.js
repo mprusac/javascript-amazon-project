@@ -656,5 +656,22 @@ const products = [
       "apparel",
       "mens"
     ]
-  }
+  },
+
+  {
+    id: "id1",
+    image: "images/products/backpack.jpg",
+    name: "Back to School Backpack",
+    rating: {
+      stars: 4.5,
+      count: 2400
+    },
+    priceCents: 4900,
+    keywords: [
+      "backpack",
+      "school",
+      "boys",
+      "mens"
+    ]
+  },
 ];
